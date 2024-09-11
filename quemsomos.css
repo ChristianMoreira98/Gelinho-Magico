@@ -1,206 +1,291 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/*Inserimos uma fonte do Google Fonts ao nosso projeto*/
 
 
 
 
 /*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
-* {
+* { /* "*" Utilizamos para inserir elementos já defindos para a nossa página inteira*/
     padding: 0;
+      /*Tirando o respiro da página*/
     margin: 0;
+      /*Tirando as margens da página*/
     list-style: none;
+      /*Tirando os estilos das listas (Tirando o sublinhado feio*/
     text-decoration: none;
+      /*Tirando a cor roxa feia dos conteúdo das listas*/
 }
 
 
 
 
 header {
-
-    justify-content: space-between;
-    align-items: center;
+/*Chamando nosso header para a estilização*/
     padding: 40px;
+     /*Tamanho do header*/
     background-color: #fe4365;
+        /*Cor de fundo do header*/
 }
 
 
 .img {
+    /*chamando a imagem do header para estilização*/
     display: flex;
+      /*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: center;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     ;
 }
 
 .lista ol {
+     /*Chamano a ol para estilização (mexendo no posicionamento da caixa)*/
     display: flex;
+      /*Tornando o elemento Flex (deixando os itens na vertical*/
     gap: 20px;
-
+/*gap - utilizamos para separar os elementos*/
 }
 
 
 .lista ol li {
+       /*Chamando a li para estilização (Estilizando o conteúdo da lista)*/
     color: aliceblue;
+     /*Cor do texto*/
     font-size: 20px;
+      /*Tamanho do texto*/
     font-weight: 600;
+     /* Peso da fonte*/
 }
 
 
 .lista ol li:hover {
+      /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     color: aqua;
+        /*Nova cor do conteúdo da lista*/
     transition: 1.3s;
+        /*Tempo de transição*/
     cursor: pointer;
+       /*Mudança no cursor*/
 }
 
 
-header img {
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+   header img{
+          /*chamando a imagem do header para estilização*/
+        width: 100px;
+        /*Tamanho da imagem*/
+       display: flex;
+          /*Tornando o elemento Flex (deixando os itens na vertical*/
+       justify-content: center;
+          /*Justificando o conteúdo e alinhando da maneira que preferir*/
+       align-items: center;
+         /*Alinhando itens ao centro*/
 
 }
 
 
 #section1 {
+      /*Chamando a primeira sessão para a estilização*/
     padding: 200px;
+      /*Tamanho da sessão*/
     background: linear-gradient(180deg, #fc9d9a 8.3%, rgba(255, 192, 203, 0.712) 100%), url(imagens/Imagem\ de\ fundo\ -\ quem\ nós\ somos.jpg);
+    /*Colocando um degrade com duas cores, e uma imagem de fundo*/
     background-size: cover;
+    /*Cover para a imagem ocupar todo o espaço da caixa*/
     background-position: center;
+    /*Imagem centralizada*/
     background-repeat: no-repeat;
+    /*Para a imagem não se repetir*/
 }
 
-.h1 {
+.h1 { /*Chamando a caixa do texto para estilização*/
     font-size: 40px;
+    /*Tamanho do texto*/
     display: flex;
+      /*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: center;
+      /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     text-align: center;
+    /*Alinhando texto ao centro*/
     margin-bottom: 30px;
+    /*Colocando um respiro na parte de baixo da caixa*/
 }
 
 
-.h1 h1 {
+.h1 h1 { /*Chamando o título para a estilização*/
     color: #fe4365;
-
+    /*Cor do texto*/
 }
 
-
-
-.sessao1 {
+.sessao1 { /*Chamando a caixa do P e img para a estilização*/
     display: flex;
+      /*Tornando o elemento Flex (deixando os itens na vertical*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     text-align: center;
-
+/*Alinhando texto ao centro*/
 }
 
 
-
-
-.sessao1 p {
+.sessao1 p { /*Chamando o parágrafo para a estilização*/
     font-size: 30px;
+     /*Tamanho do texto*/
     display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: center;
+      /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     text-align: center;
+    /*Alinhando texto ao centro*/
 }
 
-.sessao1 img {
+.sessao1 img { /*Chamando a imagem para a estilização*/
     margin-left: 20px;
+    /*Dando um respiro na esquerda*/
     width: 350px;
+    /*Tamanho da imagem*/
     border-radius: 20px;
+    /*Arredondamento da imagem*/
 }
 
 .sessao1 img:hover {
+       /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     transform: scale(1.08, 1.08);
+       /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
     cursor: pointer;
+      /*Mudança no cursor*/
     transition: 0.9s;
+     /* Tempo de transição dos efeitos*/
     box-shadow: 10px 10px 10px rgb(241, 82, 109);
+     /*Criamos uma sombra atrás da imagem*/
 }
 
 
 
-#section2 {
+#section2 { /*Chamando nossa segunda sessão para a estilização*/
     padding: 200px;
+    /*Tamanho da sessão*/
     background-color: #fc9d9a;
+    /*Cor de fundo*/
 }
 
 
 
-h2 {
+h2 { /*Chamando a caixa do texto para a estilização*/
     display: flex;
+      /*Tornando o elemento Flex (deixando os itens na vertical*/
     align-items: center;
+       /*Alinhando itens ao centro*/
     justify-content: center;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
     text-align: center;
+    /*Alinhando texto ao centro*/
     font-size: 40px;
+    /*Tamanho do texto*/
     margin-bottom: 15px;
+    /*Dando um respiro na parte de baixo da caixa*/
 }
 
-.h2 h2 {
+.h2 h2 { /*Chamando nosso segundo título para a estilização*/
     color: #fe4365;
+    /*Cor do texto*/
 }
 
 
-.liquido {
+.liquido { /*Chamando a caixa da imagem para a estilização*/
     display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     text-align: center;
+      /*Alinhando texto ao centro*/
     gap: 30px;
+    /*Separando os elementos*/
 }
 
 
 
 
 
-.liquido img {
+.liquido img { /*Chamando a imagem para estilização*/
     width: 500px;
+    /*Tamanho da imagem*/
     border-radius: 20px;
+    /*Arredondamento da imagem*/
 }
 
 
 .liquido img:hover {
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+color: aqua;
     transform: scale(1.08,1.08);
+     /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
     box-shadow: -5px 5px 5px rgb(241, 82, 109);
+      /*Criamos uma sombra atrás da imagem. Usamos - para que o efeito fique do outro lado dessa vez*/
     cursor: pointer;
+    /*Mudança no cursor*/
     transition: 0.9s;
+       /*Tempo de transição dos efeitos*/
 }
 
-.liquido p {
+.liquido p { /*Chamando o parágrafo para a estilização*/
     font-size: 20px;
+    /*Tamanho do texto*/
     display: flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
     align-items: center;
+       /*Alinhando itens ao centro*/
     text-align: center;
-
-
+     /*Centralizando o texto*/
 }
-
 
 
 footer{
-    padding: 60px;
-    background-color: #83af9b;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
-    }
-    
-    .sociais i{
-      font-size: 30px;
-    gap: 20px;
-    border-radius: 20px;
-    background-color: aliceblue;
-    padding: 15px;
+    /*Chamando o rodapé para a estilização*/
+padding: 60px;
+    /*Tamanho do rodapé*/
+background-color: #83af9b;
+    /*Cor de fudndo*/
+display: flex;
+     /*Tornando o item flex (Alinhando os elementos na vertical)*/
+justify-content: space-evenly;
+      /*Justificando o conteúdo, alinhando da maneira que preferir*/
+text-align: center;
+    /*Alinhando texto ao centro*/
+align-items: center;
+       /*Alinhando itens ao centro*/
+}
+
+.sociais i{ /*Chamando os elementos do Font Awesome para a estilização*/
+  font-size: 30px;
+    /*Tamanho da fonte*/
+gap: 20px;
+    /*Espaço entre os elementos*/
+border-radius: 20px;
+    /*Arredondamento das caixas*/
+background-color: aliceblue;
+    /*Cor de fundo*/
+padding: 15px;
+    /*Respiro dentro da caixa*/
+cursor: pointer;
+     /*Mudança no cursor*/
+}
+
+
+.sociais i:hover{
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+    transition: 0.9s;
+    /*Tempo de transição*/
     cursor: pointer;
-    }
-    
-    
-    .sociais i:hover{
-        transition: 0.9s;
-        cursor: pointer;
-    background-color: black;
-    color: #fff;
-    }
-    
+    /*Mudança no cursor*/
+background-color: black;
+    /*Nova cor de fundo*/
+color: #fff;
+    /*Nova cor dos elementos*/
+}
     
     
     
