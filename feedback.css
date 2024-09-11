@@ -1,23 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/*Inserimos uma fonte do Google Fonts ao nosso projeto*/
 
 html{
     scroll-behavior: smooth;
+    /*Adicionamos um efeito de scroll ao clicarmos em certos elementos que nós levam a outros na página */
 }
 
 
-/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
+/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES do site*/
+*{ /* "*" Utilizamos para inserir elementos já defindos para a nossa página inteira*/
+padding: 0;
+    /*Tirando o respiro da página*/
+margin: 0;
+    /*Tirando as margens da página*/
+list-style: none;
+    /*Tirando os estilos das listas (Tirando o sublinhado feio*/
+text-decoration: none;
+    /*Tirando a cor roxa feia dos conteúdo das listas*/
 }
 
 
-header {
 
-    justify-content: space-between;
-    align-items: center;
+header{
+        /*Chamando nosso header para a estilização*/
     padding: 40px;
+    /*Tamanho do header*/
     background-color: #fe4365;
+    /*Cor de fundo do header*/
+    }
+    
+
+.img {
+    /*chamando a imagem do header para estilização*/
+display: flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
+justify-content: center;
+    /*Justificando o conteúdo e alinhando da maneira que preferir*/
+align-items: center;
+    /*Alinhando itens ao centro*/
+font-size: 100px
+    /*Tamanho da imagem*/
+;
 }
+
+.lista ol{
+    /*Chamano a ol para estilização (mexendo no posicionamento da caixa)*/
+display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
+gap: 20px;
+/*gap - utilizamos para separar os elementos*/
+}
+
+
+.lista ol li{
+    /*Chamando a li para estilização (Estilizando o conteúdo da lista)*/
+color: aliceblue;
+    /*Cor do texto*/
+font-size: 20px;
+    /*Tamanho do texto*/
+font-weight: 600;
+    /*Font-weight seria o peso da fonte*/
+}
+
+
+.lista ol li:hover{
+    /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+color: aqua;
+    /*Nova cor do conteúdo da lista*/
+transition: 1.3s;
+    /*Tempo de transição*/
+cursor: pointer;
+    /*Mudança no cursor*/
+}
+
+
+    header img{
+          /*chamando a imagem do header para estilização*/
+        width: 100px;
+        /*Tamanho da imagem*/
+       display: flex;
+          /*Tornando o elemento Flex (deixando os itens na vertical*/
+       justify-content: center;
+          /*Justificando o conteúdo e alinhando da maneira que preferir*/
+       align-items: center;
+         /*Alinhando itens ao centro*/
+       
+    
+    }
