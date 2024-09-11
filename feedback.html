@@ -10,30 +10,45 @@
             <script src="https://kit.fontawesome.com/c65f603f95.js" crossorigin="anonymous"></script>
     </head>
 
+    <body>
+        <!--Body é o corpo da nossa página-->
 
-    <header>
+  <header>
+    <!--header é o cabeçalho da nossa página-->
         <div class="img header">
+            <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
+            <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
             <img src="imagens/ice cream 1.png" alt="icon sorvete">
+            <!--img - Usamos para inserir uma imagem-->
         </div>
 
 
-
         <div class="lista">
+             <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
+               <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
             <nav>
+                <!--Nav - utilizamos para informar que essa sessão/elemento é navegável-->
 
                 <ol>
+                <!--Ol - Lista ordenada-->
                     <a href="index.html">
+                        <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
                         <li>
+                            <!--li - utilizamos para inserir o conteúdo que queremos na lista-->
                             Início
                         </li>
                     </a>
 
-                    <a href>
-                        <li>Localização</li>
+                    <a href="#mapa">
+                          <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
+                        <li>Localização </li>
+                            <!--li - utilizamos para inserir o conteúdo que queremos na lista-->
                     </a>
 
-                    <a href>
+                    <a href="feedback.html">
+                         <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
                         <li>
+                                <!--li - utilizamos para inserir o conteúdo que queremos na lista-->
                             Feedback
                         </li>
 
@@ -42,12 +57,16 @@
             </nav>
         </div>
     </header>
-
     <main>
 
-<section>
-
+<section id="section1">
+ <!-- section (utilizamos para criar uma sessão na página) - Nossa primeira sessão na página -->
+        <!--As ids são uma forma de identificar um elemento, e devem ser ÚNICAS para cada elemento. Diferente das classes, que podemos usar repetidamente pelo código-->
+    
     <div class="feedback">
+            <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
+    <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
+        
 <textarea name="" id="" cols="30" rows="10"></textarea>
     </div>
 
@@ -55,6 +74,57 @@
 </section>
 
 
+
+
+
+
+
+
+        <footer>
+    <!-- footer - Nosso rodapé da página -->
+
+<div>
+      <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
+    <p class="politica">
+        <!-- p - utilizamos para inserir um parágrafo -->
+       Respeitamos sua privacidade. <br> <!-- <br> utilizamos para quebrar a linha do texto --> Saiba mais sobre como 
+        protegemos seus dados em nossa <a href="">Política de Privacidade.</a>
+          <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
+    </p>
+</div>    
+
+
+
+<div class="sociais">
+      <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
+        <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
+    <nav>
+ <!--Nav - utilizamos para informar que essa sessão/elemento é navegável-->
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <!--- i - pegamos elementos no Font awesome e inserimos no nosso footer--> 
+    </nav>
+</div>
+</footer>
+
+
+
+
+
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+<!-- Aqui inserimos a opção de libras para o nosso site -->
+</body>
+</html>
 
 
 
