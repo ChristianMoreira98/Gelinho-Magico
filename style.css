@@ -1,189 +1,274 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/*Inserimos uma fonte do Google Fonts ao nosso projeto*/
 
 html{
     scroll-behavior: smooth;
+    /*Adicionamos um efeito de scroll ao clicarmos em certos elementos que nós levam a outros na página */
 }
 
 
-/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
-*{
+/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES do site*/
+*{ /* "*" Utilizamos para inserir elementos já defindos para a nossa página inteira*/
 padding: 0;
+    /*Tirando o respiro da página*/
 margin: 0;
+    /*Tirando as margens da página*/
 list-style: none;
+    /*Tirando os estilos das listas (Tirando o sublinhado feio*/
 text-decoration: none;
+    /*Tirando a cor roxa feia dos conteúdo das listas*/
 }
 
 
 
 header{
-        
-    justify-content: space-between;
-       align-items: center;
+        /*Chamando nosso header para a estilização*/
     padding: 40px;
+    /*Tamanho do header*/
     background-color: #fe4365;
+    /*Cor de fundo do header*/
     }
     
 
 .img {
+    /*chamando a imagem do header para estilização*/
 display: flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
 justify-content: center;
+    /*Justificando o conteúdo e alinhando da maneira que preferir*/
 align-items: center;
+    /*Alinhando itens ao centro*/
 font-size: 100px
+    /*Tamanho da imagem*/
 ;
 }
 
 .lista ol{
+    /*Chamano a ol para estilização (mexendo no posicionamento da caixa)*/
 display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
 gap: 20px;
-
+/*gap - utilizamos para separar os elementos*/
 }
 
 
 .lista ol li{
+    /*Chamando a li para estilização (Estilizando o conteúdo da lista)*/
 color: aliceblue;
+    /*Cor do texto*/
 font-size: 20px;
+    /*Tamanho do texto*/
 font-weight: 600;
+    /*Font-weight seria o peso da fonte*/
 }
 
 
 .lista ol li:hover{
+    /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
 color: aqua;
+    /*Nova cor do conteúdo da lista*/
 transition: 1.3s;
+    /*Tempo de transição*/
 cursor: pointer;
+    /*Mudança no cursor*/
 }
 
 
     header img{
+          /*chamando a imagem do header para estilização*/
         width: 100px;
+        /*Tamanho da imagem*/
        display: flex;
+          /*Tornando o elemento Flex (deixando os itens na vertical*/
        justify-content: center;
+          /*Justificando o conteúdo e alinhando da maneira que preferir*/
        align-items: center;
+         /*Alinhando itens ao centro*/
        
     
     }
 
-#section1{
+#section1{ 
+    /*Chamando a primeira sessão para a estilização*/
     padding: 200px;
+    /*Tamanho da sessão*/
     background-color: #fc9d9a;
+    /*Cor de fundo da sessão*/
 }
 
 
 .sorvete-pai{
+    /*Chamando a div pai para a estilização*/
     display:flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: space-evenly;
+      /*Justificando o conteúdo e alinhando da maneira que preferir*/
     gap: 20px;
+    /*gap - utilizamos para separar os elementos*/
   margin-bottom: 35px;
+    /*Utilizamos o margin-bottom para dar um respiro na parte de baixo do elemento*/
 }
 
 
-.sorvete-pai div{
+.sorvete-pai div{ /*Chamando a div pai para inserir a estilização nos elementos filhos, como: altura, largura, bordas e cores*/
     width: 300px;
+    /*Altura da caixa*/
     height: 300px;
+    /*Lrgura da caixa*/
     background-color: #83af9b;
+    /*Cor de fundo da caixa*/
     border-radius: 20px;
+    /*Arredondamento da caixa*/
 }
 
 
 .sorvete-pai div:hover{
+       /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     cursor: pointer;
+       /*Mudança no cursor*/
     transition: 0.8s;
+      /*Tempo de transição*/
     transform: scale(1.1,1.1);
+    /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
 }
 
 
+/*Chamando todas as nossas divs filhos para estilização*/
 .div-sorvetinho1{
     background-image: url(imagens/sorvertinho1.jpg);
+    /*Imagem da caixa*/
 background-position: center;
+    /*Posicionando imagem ao centro*/
 background-size: cover;}
-
+/*Fazendo a imagem preencher todo o espaço da caixa*/
 
 .div-sorvetinho2{
    background-image: url(imagens/Sorvetinho\ 2.jpg);
+        /*Imagem da caixa*/
 background-size: cover;}
+/*Fazendo a imagem preencher todo o espaço da caixa*/
 
 .div-sorvetinho3{
     background-image: url(imagens/Sorvetinho\ 3.jpg);
+        /*Imagem da caixa*/
     background-position: center;
+       /*Posicionando imagem ao centro*/
     background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 
 .div-sorvetinho4{
     background-image: url(imagens/Sorvetinho\ 4.jpg);
+     /*Imagem da caixa*/
     background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 .div-sorvetinho5{
     background-image: url(imagens/div\ sorvetinho\ 5.jpg);
+     /*Imagem da caixa*/
  background-position: center;
+           /*Posicionando imagem ao centro*/
 background-size: cover;}
+/*Fazendo a imagem preencher todo o espaço da caixa*/
 
 
 .div-sorvetinho6{
     background-image: url(imagens/sorvetinho\ 6.jpg);
+      /*Imagem da caixa*/
     background-position: center;
+         /*Posicionando imagem ao centro*/
     background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
-
-
-
-
-
-
-
 
 
 
 .section2{
+    /*Chamando a segunda sessão para a estilização*/
 padding: 250px;
+     /*Tamanho da sessão*/
 background-image: url(imagens/img\ de\ fundo.jpg);
+    /*Imagem de fundo*/
 background-position: center;
+      /*Posicionando imagem ao centro*/
 background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
 background-repeat: no-repeat;
+    /*Elemento para a imagem não se repetir dentro da caixa*/
 background-attachment: fixed;
+    /*Efeito para a imagem de fundo não se mexer*/
 }
 
 
 .class-button{
+    /*Chamando a caixa do botão para a estilização*/
     display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: center;
+    /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     text-align: center;
+    /*Centralizando o texto*/
   
 }
 
 
 .section2 button{
+    /*chamando o botão para a estilização*/
     width: 170px;
+    /*Altura do botão*/
     height: 50px;
+    /*Largura do botão*/
 border-radius: 20px;
+    /*Arrdondamento da borda do botão*/
 background-color: black;
+    /*Cor de fundo do botão*/
 color: #fff;
+    /*Cor do texto do botão*/
 font-weight: 600;
+    /*Peso da fonte*/
 }
 
 
 
 
 .section2 button:hover{
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     box-shadow: 10px 10px 10px whitesmoke;
+    /*Criamos uma sombra atrás do botão*/
     transition: 0.8s;
+    /*Transição dos efeitos*/
     background-color: whitesmoke;
+    /*Nova cor de fundo*/
     color: black;
+    /*Nova cor do texto*/
     cursor: pointer;
+       /*Mudança no cursor*/
 }
 
-.section3{
+.section3{ 
+    /*Chamando nossa terceira sessão para a estilização*/
     padding: 200px;
+    /*Tamanho da sessão*/
 background-color: #fc9d9a;
+    /*Cor de fundo da sessão*/
 }
 
 .localização{
+    /*chamando a caixa do título para a estilização*/
     display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
    margin-left: 30px;
+    /*Dando um respiro na esquerda do elemento*/
     align-items: center;
+    /*Alinhando itens ao centro*/
     text-align: center;
+    /*Alinhando texto ao centro*/
     margin-bottom: 15px;
+    /*Dando um respiro na parte de baixo do elemento*/
 }
 
 .localização h2{
