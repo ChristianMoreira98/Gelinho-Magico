@@ -272,73 +272,117 @@ background-color: #fc9d9a;
 }
 
 .localização h2{
+    /*Chamando o texto do título para a estilização*/
     color: yellow;
-   
+   /*Cor do texto*/
 }
 
 
 
 .mapa{
+    /*Chamando a caixa do mapa para a estilização*/
     display: flex;
-    justify-content: center;
-  
+    /*Tornando o item flex (Alinhando os elementos na vertical)*/
+    justify-content: center;  
+    /*Justificando o conteúdo, alinhando da maneira que preferir*/
 }
 
 .sorvete-pai2 div{
+    /*Chamando a div pai e inserindo elementos na div filho*/
 margin-top: 50px;
+    /*Dando um respiro na parte de cima da caixa*/
     width: 350px;
+    /*Altura da caixa*/
     height: 350px;
+    /*Largura da caixa*/
 border-radius: 20px;
+    /*Arredondamento da caixa*/
 margin-left: 30px;
+    /*Dando um respiro na esquerda da caixa*/
 display: flex;
+    /*Tornando o item flex (Alinhando os elementos na vertical)*/
 justify-content: center;
+     /*Justificando o conteúdo, alinhando da maneira que preferir*/
 align-items: center;
+    /*Alinhando itens ao centro*/
 }
 
 .sorvete-pai2 div:hover{
+      /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     width: 300px;
+    /*Nova Largura*/
     height: 300px;
+    /*Nova Altura*/
     transition: 0.8s;
+    /*Tempo de transição*/
     cursor: pointer;
+     /*Mudança no cursor*/
 }
 
 .div-sorvetinho7{
+    /*Chamando a div filho para a estilização*/
     background-image: url(imagens/sessao\ mapa3.jpg);
+    /*Imagem da caixa*/
   background-position: center;
+    /*Posicionando a imagem ao centro*/
     background-size: cover;
+    /*Preenchendo todo o espaço da caixa*/
 }
 
-.mapa iframe{
+.mapa iframe{ 
+    /*Chamando o mapa do Google Maps para a estilização*/
     border-radius: 20px;
+    /*Arredondamento do mapa*/
     display: flex;
+     /*Tornando o item flex (Alinhando os elementos na vertical)*/
     justify-content: center;
+      /*Justificando o conteúdo, alinhando da maneira que preferir*/
     align-items: center;
+      /*Alinhando itens ao centro*/
 }
 
 footer{
+    /*Chamando o rodapé para a estilização*/
 padding: 60px;
+    /*Tamanho do rodapé*/
 background-color: #83af9b;
+    /*Cor de fudndo*/
 display: flex;
+     /*Tornando o item flex (Alinhando os elementos na vertical)*/
 justify-content: space-evenly;
+      /*Justificando o conteúdo, alinhando da maneira que preferir*/
 text-align: center;
+    /*Alinhando texto ao centro*/
 align-items: center;
+       /*Alinhando itens ao centro*/
 }
 
-.sociais i{
+.sociais i{ /*Chamando os elementos do Font Awesome para a estilização*/
   font-size: 30px;
+    /*Tamanho da fonte*/
 gap: 20px;
+    /*Espaço entre os elementos*/
 border-radius: 20px;
+    /*Arredondamento das caixas*/
 background-color: aliceblue;
+    /*Cor de fundo*/
 padding: 15px;
+    /*Respiro dentro da caixa*/
 cursor: pointer;
+     /*Mudança no cursor*/
 }
 
 
 .sociais i:hover{
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     transition: 0.9s;
+    /*Tempo de transição*/
     cursor: pointer;
+    /*Mudança no cursor*/
 background-color: black;
+    /*Nova cor de fundo*/
 color: #fff;
+    /*Nova cor dos elementos*/
 }
 
 
