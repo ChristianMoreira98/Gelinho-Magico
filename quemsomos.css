@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+header {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fe4365;
+}
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.lista ol {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+.lista ol li {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.lista ol li:hover {
+    color: aqua;
+    transition: 1.3s;
+    cursor: pointer;
+}
+
+
+header img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#section1 {
+    padding: 200px;
+    background: linear-gradient(180deg, #fc9d9a 8.3%, rgba(255, 192, 203, 0.712) 100%), url(imagens/Imagem\ de\ fundo\ -\ quem\ nós\ somos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.h1 h1 {
+    color: #fe4365;
+
+}
+
+
+
+.sessao1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+.sessao1 p {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sessao1 img {
+    margin-left: 20px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.sessao1 img:hover {
+    transform: scale(1.08, 1.08);
+    cursor: pointer;
+    transition: 0.9s;
+    box-shadow: 10px 10px 10px rgb(241, 82, 109);
+}
+
+
+
+#section2 {
+    padding: 200px;
+    background-color: #fc9d9a;
+}
+
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.h2 h2 {
+    color: #fe4365;
+}
+
+
+.liquido {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+
+
+
+
+.liquido img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+
+.liquido img:hover {
+    transform: scale(1.08,1.08);
+    box-shadow: -5px 5px 5px rgb(241, 82, 109);
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.liquido p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+
+footer{
+    padding: 60px;
+    background-color: #83af9b;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    }
+    
+    .sociais i{
+      font-size: 30px;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 15px;
+    cursor: pointer;
+    }
+    
+    
+    .sociais i:hover{
+        transition: 0.9s;
+        cursor: pointer;
+    background-color: black;
+    color: #fff;
+    }
+    
+    
+    
+    
+    
+    

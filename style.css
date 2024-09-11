@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 /*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
@@ -14,40 +16,51 @@ text-decoration: none;
 
 
 header{
+        
+    justify-content: space-between;
+       align-items: center;
+    padding: 40px;
+    background-color: #fe4365;
+    }
+    
+
+.img {
 display: flex;
-justify-content: space-between;
-   align-items: center;
-padding: 80px;
-background-color: #fe4365;
+justify-content: center;
+align-items: center;
+font-size: 100px
+;
 }
 
-
-
-header img{
-    width: 100px;
-    align-items: start;
-
-}
-
-
-header div nav ol{
-   gap: 20px;
+.lista ol{
 display: flex;
+gap: 20px;
+
 }
 
 
-header li{
-   font-size: 22px;
-   color: #fff;
-   font-weight: 800;
+.lista ol li{
+color: aliceblue;
+font-size: 20px;
+font-weight: 600;
 }
 
 
-header div nav ol a li:hover{
-    color: aqua;
-    transition: 0.8s;
-    cursor: pointer;
+.lista ol li:hover{
+color: aqua;
+transition: 1.3s;
+cursor: pointer;
 }
+
+
+    header img{
+        width: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+    
+    }
 
 #section1{
     padding: 200px;
@@ -136,6 +149,7 @@ background-attachment: fixed;
     justify-content: center;
     align-items: center;
     text-align: center;
+  
 }
 
 
@@ -145,17 +159,104 @@ background-attachment: fixed;
 border-radius: 20px;
 background-color: black;
 color: #fff;
+font-weight: 600;
+}
+
+
+
+
+.section2 button:hover{
+    box-shadow: 10px 10px 10px whitesmoke;
+    transition: 0.8s;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
 }
 
 .section3{
     padding: 200px;
-background-color: #c8c8a9;
+background-color: #fc9d9a;
+}
 
+.localização{
+    display: flex;
+   margin-left: 30px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.localização h2{
+    color: yellow;
+   
 }
 
 
+
+.mapa{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.sorvete-pai2 div{
+margin-top: 50px;
+    width: 350px;
+    height: 350px;
+border-radius: 20px;
+margin-left: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sorvete-pai2 div:hover{
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.div-sorvetinho7{
+    background-image: url(imagens/sessao\ mapa3.jpg);
+  background-position: center;
+    background-size: cover;
+}
+
+.mapa iframe{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer{
-padding: 80px;
+padding: 60px;
 background-color: #83af9b;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
 }
+
+.sociais i{
+  font-size: 30px;
+gap: 20px;
+border-radius: 20px;
+background-color: aliceblue;
+padding: 15px;
+cursor: pointer;
+}
+
+
+.sociais i:hover{
+    transition: 0.9s;
+    cursor: pointer;
+background-color: black;
+color: #fff;
+}
+
+
+
+
+

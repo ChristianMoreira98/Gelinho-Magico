@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES*/
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fe4365;
+}
