@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 /*Inserimos uma fonte do Google Fonts ao nosso projeto*/
 
+html{
+    scroll-behavior: smooth;
+    /*Adicionamos um efeito de scroll ao clicarmos em certos elementos que nós levam a outros na página */
+}
 
 
 
