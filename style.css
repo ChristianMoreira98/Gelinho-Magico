@@ -90,10 +90,24 @@ cursor: pointer;
 
 #section1{ 
     /*Chamando a primeira sessão para a estilização*/
-    padding: 200px;
+    padding: 185px;
     /*Tamanho da sessão*/
     background-color: #fc9d9a;
     /*Cor de fundo da sessão*/
+}
+
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+  
+}
+
+.produtos h1{
+    color: #fe4365;
+   font-size: 55px;
 }
 
 
@@ -119,6 +133,7 @@ cursor: pointer;
     /*Cor de fundo da caixa*/
     border-radius: 20px;
     /*Arredondamento da caixa*/
+  
 }
 
 
@@ -130,6 +145,8 @@ cursor: pointer;
       /*Tempo de transição*/
     transform: scale(1.1,1.1);
     /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
+    box-shadow: 10px 10px 10px #fe4365 ;
+    /*Colocamos uma sombra atrás das caixas ao passar o mouse*/
 }
 
 
@@ -253,28 +270,22 @@ font-weight: 600;
     /*Chamando nossa terceira sessão para a estilização*/
     padding: 200px;
     /*Tamanho da sessão*/
-background-color: #fc9d9a;
+background-color: #f9cdad;
     /*Cor de fundo da sessão*/
 }
 
 .localização{
-    /*chamando a caixa do título para a estilização*/
-    display: flex;
-     /*Tornando o elemento Flex (deixando os itens na vertical*/
-   margin-left: 30px;
-    /*Dando um respiro na esquerda do elemento*/
-    align-items: center;
-    /*Alinhando itens ao centro*/
-    text-align: center;
-    /*Alinhando texto ao centro*/
-    margin-bottom: 15px;
-    /*Dando um respiro na parte de baixo do elemento*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
 }
 
 .localização h2{
     /*Chamando o texto do título para a estilização*/
-    color: yellow;
+    color: #fe4365;
    /*Cor do texto*/
+   font-size: 60px;
 }
 
 
@@ -284,29 +295,20 @@ background-color: #fc9d9a;
     display: flex;
     /*Tornando o item flex (Alinhando os elementos na vertical)*/
     justify-content: center;  
+    align-items: center;
     /*Justificando o conteúdo, alinhando da maneira que preferir*/
 }
 
-.sorvete-pai2 div{
-    /*Chamando a div pai e inserindo elementos na div filho*/
-margin-top: 50px;
-    /*Dando um respiro na parte de cima da caixa*/
-    width: 350px;
-    /*Altura da caixa*/
-    height: 350px;
-    /*Largura da caixa*/
-border-radius: 20px;
-    /*Arredondamento da caixa*/
-margin-left: 30px;
-    /*Dando um respiro na esquerda da caixa*/
-display: flex;
-    /*Tornando o item flex (Alinhando os elementos na vertical)*/
-justify-content: center;
-     /*Justificando o conteúdo, alinhando da maneira que preferir*/
-align-items: center;
-    /*Alinhando itens ao centro*/
+.horario{
+    /*Chamando o elemento pai dos parágrafos para a estilização*/
+    margin-left: 15px;
 }
 
+
+.horario p{
+    font-size: 30px;
+    color: #fe4365;
+}
 .sorvete-pai2 div:hover{
       /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     width: 300px;

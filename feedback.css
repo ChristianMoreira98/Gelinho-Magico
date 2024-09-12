@@ -84,6 +84,129 @@ cursor: pointer;
           /*Justificando o conteúdo e alinhando da maneira que preferir*/
        align-items: center;
          /*Alinhando itens ao centro*/
-       
     
+    }
+
+
+    #section1{
+        /*Chamando a primeira sessão para a estilização*/
+        padding: 180px;
+        /*Tamanho da sessão*/
+        background-color: #fc9d9a;
+        /*Cor de fundo*/
+    }
+
+
+    .feedback{
+        /*Chamando a caixa do título para a estilização*/
+        display: flex;
+          /*Tornando o elemento Flex (deixando os itens na vertical*/
+        justify-content: center;
+/*Justificando o conteúdo e alinhando da maneira que preferir*/
+        align-items: center;
+ /*Alinhando itens ao centro*/
+    }
+
+    .feedback h1{
+        /*Chamando o título para a estilização*/
+        font-size: 45px;
+        /*Tamanho do texto*/
+    }
+
+    .textarea{
+        /*Chamando a caixa de feedback para a estilização*/
+        display: flex;
+/*Tornando o elemento Flex (deixando os itens na vertical*/
+        justify-content: center;
+/*Justificando o conteúdo e alinhando da maneira que preferir*/
+        align-items: center;
+/*Alinhando itens ao centro*/
+    }
+
+    .botao{
+        /*Chamando a caixa do botão para a estilização*/
+        display: flex;
+/*Tornando o elemento Flex (deixando os itens na vertical*/
+        justify-content: center;
+/*Justificando o conteúdo e alinhando da maneira que preferir*/
+        align-items: center;
+/*Alinhando itens ao centro*/
+        text-align: center;
+/*Centralizando o texto*/
+        margin-top: 20px;
+/*Dando um respiro na parte de cima da caixa*/
+    }
+
+    .botao button{
+        /*Estilização do botão*/
+        width: 150px;
+        /*Altura*/
+        height: 60px;
+        /*Largura*/
+        background-color: #fe4365;
+        /*Cor de fundo do botão*/
+        color: #fff;
+        /*Cor do textp*/
+border-radius: 10px;
+/*Arredondamento do botão*/
+
+    }
+
+
+    .botao button:hover{
+          /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+        cursor: pointer ;
+                /*Mudança no cursor*/
+        transition: 0.8s;
+        /*Tempo de transição*/
+        transform: scale(1.1 , 1.1);
+        /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
+        box-shadow: 2px 2px 2px #d8fcec;
+           /*Colocamos uma sombra atrás das caixas ao passar o mouse*/
+        
+    }
+
+
+    footer{
+        /*Chamando o rodapé para a estilização*/
+    padding: 60px;
+        /*Tamanho do rodapé*/
+    background-color: #83af9b;
+        /*Cor de fudndo*/
+    display: flex;
+         /*Tornando o item flex (Alinhando os elementos na vertical)*/
+    justify-content: space-evenly;
+          /*Justificando o conteúdo, alinhando da maneira que preferir*/
+    text-align: center;
+        /*Alinhando texto ao centro*/
+    align-items: center;
+           /*Alinhando itens ao centro*/
+    }
+    
+    .sociais i{ /*Chamando os elementos do Font Awesome para a estilização*/
+      font-size: 30px;
+        /*Tamanho da fonte*/
+    gap: 20px;
+        /*Espaço entre os elementos*/
+    border-radius: 20px;
+        /*Arredondamento das caixas*/
+    background-color: aliceblue;
+        /*Cor de fundo*/
+    padding: 15px;
+        /*Respiro dentro da caixa*/
+    cursor: pointer;
+         /*Mudança no cursor*/
+    }
+    
+    
+    .sociais i:hover{
+         /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+        transition: 0.9s;
+        /*Tempo de transição*/
+        cursor: pointer;
+        /*Mudança no cursor*/
+    background-color: black;
+        /*Nova cor de fundo*/
+    color: #fff;
+        /*Nova cor dos elementos*/
     }
