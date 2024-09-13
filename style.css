@@ -178,7 +178,7 @@ cursor: pointer;
 
 .botao1 button:hover{
     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 3px black;
     /*Criamos uma sombra atrás do botão*/
     transition: 0.8s;
     /*Transição dos efeitos*/
@@ -294,9 +294,9 @@ font-weight: 600;
 
 .section2 button:hover{
      /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 3px black;
     /*Criamos uma sombra atrás do botão*/
-    transition: 0.8s;
+    transition: 0.9s;
     /*Transição dos efeitos*/
     background-color:#fe4365;
     /*Nova cor de fundo*/
