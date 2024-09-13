@@ -228,7 +228,7 @@ color: aqua;
     transform: scale(1.08,1.08);
      /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
     box-shadow: -5px 5px 5px rgb(241, 82, 109);
-      /*Criamos uma sombra atrás da imagem. Usamos - para que o efeito fique do outro lado dessa vez*/
+      /*Criamos uma sombra atrás da imagem. Usamos "-" para que o efeito fique do outro lado dessa vez*/
     cursor: pointer;
     /*Mudança no cursor*/
     transition: 0.9s;
