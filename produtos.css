@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/*Inserimos uma fonte do Google Fonts ao nosso projeto*/
+
+html{
+    scroll-behavior: smooth;
+    /*Adicionamos um efeito de scroll ao clicarmos em certos elementos que nós levam a outros na página */
+}
+
+
+/*https://paletadecores.com/paleta/fe4365/fc9d9a/f9cdad/c8c8a9/83af9b/ - PALETA DE CORES do site*/
+*{ /* "*" Utilizamos para inserir elementos já defindos para a nossa página inteira*/
+padding: 0;
+    /*Tirando o respiro da página*/
+margin: 0;
+    /*Tirando as margens da página*/
+list-style: none;
+    /*Tirando os estilos das listas (Tirando o sublinhado feio*/
+text-decoration: none;
+    /*Tirando a cor roxa feia dos conteúdo das listas*/
+}
+
+
+
+header{
+        /*Chamando nosso header para a estilização*/
+    padding: 40px;
+    /*Tamanho do header*/
+    background-color: #fe4365;
+    /*Cor de fundo do header*/
+    }
+    
+
+.img {
+    /*chamando a imagem do header para estilização*/
+display: flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
+justify-content: center;
+    /*Justificando o conteúdo e alinhando da maneira que preferir*/
+align-items: center;
+    /*Alinhando itens ao centro*/
+font-size: 100px
+    /*Tamanho da imagem*/
+;
+}
+
+.lista ol{
+    /*Chamano a ol para estilização (mexendo no posicionamento da caixa)*/
+display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
+gap: 20px;
+/*gap - utilizamos para separar os elementos*/
+}
+
+
+.lista ol li{
+    /*Chamando a li para estilização (Estilizando o conteúdo da lista)*/
+color: aliceblue;
+    /*Cor do texto*/
+font-size: 20px;
+    /*Tamanho do texto*/
+font-weight: 600;
+    /*Font-weight seria o peso da fonte*/
+}
+
+
+.lista ol li:hover{
+    /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+color: aqua;
+    /*Nova cor do conteúdo da lista*/
+transition: 1.3s;
+    /*Tempo de transição*/
+cursor: pointer;
+    /*Mudança no cursor*/
+}
+
+
+    header img{
+          /*chamando a imagem do header para estilização*/
+        width: 100px;
+        /*Tamanho da imagem*/
+       display: flex;
+          /*Tornando o elemento Flex (deixando os itens na vertical*/
+       justify-content: center;
+          /*Justificando o conteúdo e alinhando da maneira que preferir*/
+       align-items: center;
+         /*Alinhando itens ao centro*/
+       
+    
+    }
+
+.sectionp{
+    /*Chamando a primeira sessão para a estilização*/
+padding: 180px;
+/*Tamanho da sessão*/
+background-color: #fc9d9a;
+/*Cor de fundo da sessão*/
+}
+
+
+
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+margin-bottom: 30px;
+}
+
+.h1 h1{
+    font-size: 60px;
+    color: #fe4365;
+    font-weight: 800;
+}
+
+
+.div-pai{
+   /*Chamando a div pai para a estilização*/
+   display:flex;
+   /*Tornando o elemento Flex (deixando os itens na vertical*/
+   justify-content: space-evenly;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
+   gap: 30px;
+   /*gap - utilizamos para separar os elementos*/
+ margin-bottom: 35px;
+   /*Utilizamos o margin-bottom para dar um respiro na parte de baixo do elemento*/
+}
+
+
+.div-pai div{
+  /*Chamando a div pai para inserir a estilização nos elementos filhos, como: altura, largura, bordas e cores*/
+  width: 300px;
+  /*Altura da caixa*/
+  height: 300px;
+  /*Lrgura da caixa*/
+  background-color: #83af9b;
+  /*Cor de fundo da caixa*/
+  border-radius: 20px;
+  /*Arredondamento da caixa*/
+}
+
+
+.sorvete1{
+    background-image: url(imagens/milk-1382186_1280.jpg);
+    background-size: cover;
+}
+
+
+.sorvete2{
+    background-image: url(imagens2/summer-3206321_1280.jpg);
+    background-size: cover;
+}
+
+
+
+.sorvete3{
+    background-image: url(imagens2/drink-722061_1280.jpg);
+    background-size: cover;
+}
+
+.sorvete4{
+    background-image: url(imagens2/food-5227756_1280.jpg);
+    background-size: cover;
+}
+
+.sorvete5{
+    background-image: url(imagens2/smoothie-5119615_1280.jpg);
+    background-size: cover;
+}
+
+.sorvete6{
+    background-image: url(imagens2/drink-4767705_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.div-pai div:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #fe4365;
+    transition: 0.9s;
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+
+.sectionp2{
+    padding: 180px;
+    background-color: #f9cdad;
+}
+
+
+
+.div-pai2{
+    /*Chamando a div pai para a estilização*/
+    display:flex;
+    /*Tornando o elemento Flex (deixando os itens na vertical*/
+    justify-content: space-evenly;
+      /*Justificando o conteúdo e alinhando da maneira que preferir*/
+    gap: 32px;
+    /*gap - utilizamos para separar os elementos*/
+  margin-bottom: 35px;
+    /*Utilizamos o margin-bottom para dar um respiro na parte de baixo do elemento*/
+ }
+ 
+ 
+ .div-pai2 div{
+   /*Chamando a div pai para inserir a estilização nos elementos filhos, como: altura, largura, bordas e cores*/
+   width: 300px;
+   /*Altura da caixa*/
+   height: 300px;
+   /*Lrgura da caixa*/
+   background-color: #83af9b;
+   /*Cor de fundo da caixa*/
+   border-radius: 20px;
+   /*Arredondamento da caixa*/
+ }
+
+
+ .div-pai2 div:hover{
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+    cursor: pointer;
+     /*Mudança no cursor*/
+    box-shadow: 10px 10px 10px #b97849;
+     /*Criamos uma sombra atrás do botão*/
+    transition: 0.9s;
+       /*Transição dos efeitos*/
+    transform: scale(1.1,1.1);
+    /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
+}
+
+
+/*Chamando todas as nossas divs filhos para estilização*/
+.sorvete7{
+    background-image: url(imagens2/sorvete1.jpg);
+     /*Imagem da caixa*/
+    background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
+}
+
+.sorvete8{
+    background-image: url(imagens2/sorvete2.jpg);
+     /*Imagem da caixa*/
+    background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
+    background-position: center;
+      /*Posicionando imagem ao centro*/
+}
+
+.sorvete9{
+    background-image: url(imagens2/sorvete3.jpg);
+     /*Imagem da caixa*/
+    background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
+}
+
+.sorvete10{
+    background-image: url(imagens2/picole1.jpg);
+ /*Imagem da caixa*/
+    background-size: cover;
+ /*Fazendo a imagem preencher todo o espaço da caixa*/
+}
+
+.sorvete11{
+    background-image: url(imagens2/picole2.jpg);
+    /*Imagem da caixa*/
+    background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
+    background-position: center;
+      /*Posicionando imagem ao centro*/
+}
+
+.sorvete12{
+    background-image: url(imagens2/strawberries-8054370_1280.jpg);
+    /*Imagem da caixa*/
+    background-size: cover;
+    /*Fazendo a imagem preencher todo o espaço da caixa*/
+    background-position: center;
+      /*Posicionando imagem ao centro*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    /*Chamando o rodapé para a estilização*/
+padding: 60px;
+    /*Tamanho do rodapé*/
+background-color: #83af9b;
+    /*Cor de fudndo*/
+display: flex;
+     /*Tornando o item flex (Alinhando os elementos na vertical)*/
+justify-content: space-evenly;
+      /*Justificando o conteúdo, alinhando da maneira que preferir*/
+text-align: center;
+    /*Alinhando texto ao centro*/
+align-items: center;
+       /*Alinhando itens ao centro*/
+}
+
+.sociais i{ /*Chamando os elementos do Font Awesome para a estilização*/
+  font-size: 30px;
+    /*Tamanho da fonte*/
+gap: 20px;
+    /*Espaço entre os elementos*/
+border-radius: 20px;
+    /*Arredondamento das caixas*/
+background-color: aliceblue;
+    /*Cor de fundo*/
+padding: 15px;
+    /*Respiro dentro da caixa*/
+cursor: pointer;
+     /*Mudança no cursor*/
+}
+
+
+.sociais i:hover{
+     /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+    transition: 0.9s;
+    /*Tempo de transição*/
+    cursor: pointer;
+    /*Mudança no cursor*/
+background-color: black;
+    /*Nova cor de fundo*/
+color: #fff;
+    /*Nova cor dos elementos*/
+}
+
+
+
+.politica{
+    /*Chamando o texto de privicidade para a estilização*/
+    font-size: 23px;
+    /*Tamanho do texto*/
+}
+
+footer span{
+    /*Chamando um texto especifico para a estilização usando um span*/
+    color: #fff;
+    /*Cor do texto*/
+}

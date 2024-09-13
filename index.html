@@ -13,6 +13,7 @@
 <header>
     <!--header é o cabeçalho da nossa página-->
         <div class="img header">
+            <!--Caixa do ícone do header-->
             <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
             <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
             <img src="imagens/ice cream 1.png" alt="icon sorvete">
@@ -21,6 +22,7 @@
 
 
         <div class="lista">
+            <!--Caixa das listas-->
              <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
                <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
             <nav>
@@ -36,9 +38,9 @@
                         </li>
                     </a>
 
-                    <a href="#mapa">
+                    <a href="produtos.html">
                           <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
-                        <li>Localização </li>
+                        <li>Produtos</li>
                             <!--li - utilizamos para inserir o conteúdo que queremos na lista-->
                     </a>
 
@@ -55,7 +57,7 @@
         </div>
     </header>
 <main>
-    <!--nav - Utilzamos para informar o navegador que esta é a sessão principal do nosso site-->
+    <!--main - Utilzamos para informar o navegador que esta é a sessão principal do nosso site-->
 
     <section id="section1">
         <!-- section (utilizamos para criar uma sessão na página) - Nossa primeira sessão na página -->
@@ -64,10 +66,15 @@
 
 
         <div  class="produtos">
+            <!--Caixa dos produtos-->
+             <!--Nossa Div pai, para que possamos posicionar os elementos filhos de uma maneira mais fácil-->
+     <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
             <h1>Alguns do nossos produtos!</h1>
+            <!--Nosso tírulo maior-->
         </div>
 
 <div class="sorvete-pai">
+    
     <!--Nossa Div pai, para que possamos posicionar os elementos filhos de uma maneira mais fácil-->
      <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
     
@@ -80,6 +87,7 @@
 
 <div class="sorvete-pai">
  <!--Nossa Div pai, para que possamos posicionar os elementos filhos de uma maneira mais fácil-->
+ <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
       <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
     <div class="div-sorvetinho4"></div>
     <div class="div-sorvetinho5"></div>
@@ -87,6 +95,20 @@
      <!--Essas divs são os nossos elementos filhos, podemos inserir elementos neles, como: imagens, botões, textos, e muito mais-->
      <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
 </div>  
+
+
+
+<div class="botao1">
+    <!--div pai do botão-->
+    <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
+    <a href="produtos.html">
+        <!--Âncora do botão-->
+        <button>
+            <!--Inserindo um botão-->
+            Mais produtos
+        </button>
+    </a>
+</div>
     </section> 
     
     <section class="section2">
@@ -94,6 +116,7 @@
         <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
         
 <div class="class-button">
+    <!--Caixa do botão-->
       <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
     <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
     <nav>
@@ -114,6 +137,7 @@
          <!--As ids são uma forma de identificar um elemento, e devem ser ÚNICAS para cada elemento. Diferente das classes, que podemos usar repetidamente pelo código-->
         
         <div class="localização">
+            <!--Caixa que guarda o texto da localização-->
                <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
                 <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
             <h2>Onde nós achar?</h2>
@@ -121,6 +145,7 @@
           </div>
 
 <div class="mapa">
+    <!--Caixa que guarda o mapa-->
       <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
         <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
     <nav>
@@ -131,7 +156,7 @@
         
     
         <div class="horario">
-            <!--Nossa Div pai, para que possamos posicionar os elementos filhos de uma maneira mais fácil-->
+            <!--Nossa Div pai, para que possamos posicionar os elementos filhos de uma maneira mais fácil - guardando os textos-->
             <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização--> 
           <p>SEG A SAB: 11:00 - 21:00</p>
         <br>
@@ -147,11 +172,13 @@
     <!-- footer - Nosso rodapé da página -->
 
 <div>
+    <!--Caixa que guarda o parágrafo-->
       <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
     <p class="politica">
         <!-- p - utilizamos para inserir um parágrafo -->
-       Respeitamos sua privacidade. <br> <!-- <br> utilizamos para quebrar a linha do texto --> Saiba mais sobre como 
-        protegemos seus dados em nossa <a href="">Política de Privacidade.</a>
+       Respeitamos sua privacidade. Saiba mais sobre como <br>  <!-- <br> utilizamos para quebrar a linha do texto --> 
+        protegemos seus dados em nossa <a href="" class="politica"> <span>Política de Privacidade.</span> </a>
+        <!--sapn usamos para criar uma marcação em uma certa linha de texto, para podemos estlizar depois no css-->
           <!--Tag A utilizamos para criar uma âncora que vai nós levar para algum link externo da página-->
     </p>
 </div>    
@@ -159,6 +186,7 @@
 
 
 <div class="sociais">
+    <!--Caixa que guarda os elementos do Font Awesome-->
       <!--div são caixas, que podemos usar para posicionar elementos, estilizar e etc..-->
         <!--Class - Usamos para marcar algum elemento, e depois chama-lo especificadamente no css para estilização-->
     <nav>

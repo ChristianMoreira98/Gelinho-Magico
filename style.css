@@ -99,15 +99,22 @@ cursor: pointer;
 
 .produtos{
     display: flex;
+/*Tornando o elemento Flex (deixando os itens na vertical*/
     justify-content: center;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
+     /*Alinhando itens ao centro*/
     margin-bottom: 60px;
+    /*Colocando um respiro na parte de baixo do botão*/
   
 }
 
 .produtos h1{
+    /*Estilização do título*/
     color: #fe4365;
+    /*Cor do texto*/
    font-size: 55px;
+   /*Tamanho do texto*/
 }
 
 
@@ -149,6 +156,39 @@ cursor: pointer;
     /*Colocamos uma sombra atrás das caixas ao passar o mouse*/
 }
 
+
+.botao1{
+    /*Estilização da caixa pai do botção*/
+    display: flex;
+     /*Tornando o elemento Flex (deixando os itens na vertical*/
+    justify-content: center;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
+    align-items: center;
+}
+
+.botao1 button{
+    width: 170px;
+    /*Altura do botão*/
+    height: 50px;
+    /*Largura do botão*/
+    border-radius: 15px;
+    /*Arredondamento do botão*/
+}
+
+
+.botao1 button:hover{
+    /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
+    box-shadow: 5px 5px 5px black;
+    /*Criamos uma sombra atrás do botão*/
+    transition: 0.8s;
+    /*Transição dos efeitos*/
+    background-color:#fe4365;
+    /*Nova cor de fundo*/
+
+    /*Nova cor do texto*/
+    cursor: pointer;
+       /*Mudança no cursor*/
+}
 
 /*Chamando todas as nossas divs filhos para estilização*/
 .div-sorvetinho1{
@@ -241,9 +281,9 @@ background-attachment: fixed;
     /*Largura do botão*/
 border-radius: 20px;
     /*Arrdondamento da borda do botão*/
-background-color: black;
+background-color: #fff;
     /*Cor de fundo do botão*/
-color: #fff;
+color: black;
     /*Cor do texto do botão*/
 font-weight: 600;
     /*Peso da fonte*/
@@ -254,13 +294,13 @@ font-weight: 600;
 
 .section2 button:hover{
      /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
-    box-shadow: 10px 10px 10px whitesmoke;
+    box-shadow: 5px 5px 5px black;
     /*Criamos uma sombra atrás do botão*/
     transition: 0.8s;
     /*Transição dos efeitos*/
-    background-color: whitesmoke;
+    background-color:#fe4365;
     /*Nova cor de fundo*/
-    color: black;
+
     /*Nova cor do texto*/
     cursor: pointer;
        /*Mudança no cursor*/
@@ -286,6 +326,7 @@ background-color: #f9cdad;
     color: #fe4365;
    /*Cor do texto*/
    font-size: 60px;
+  
 }
 
 
@@ -389,5 +430,18 @@ color: #fff;
 
 
 
+.politica{
+    /*Chamando o texto de privicidade para a estilização*/
+    font-size: 23px;
+    /*Tamanho do texto*/
+}
+
+footer span{
+    /*Chamando um texto especifico para a estilização usando um span*/
+    color: #fff;
+    /*Cor do texto*/
+}
+
+  
 
 

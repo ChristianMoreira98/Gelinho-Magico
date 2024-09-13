@@ -210,3 +210,19 @@ border-radius: 10px;
     color: #fff;
         /*Nova cor dos elementos*/
     }
+
+
+    
+.politica{
+    /*Chamando o texto de privicidade para a estilização*/
+    font-size: 23px;
+    /*Tamanho do texto*/
+  }
+  
+
+    footer span{
+        /*Chamando um texto especifico para a estilização usando um span*/
+        color: #fff;
+    }
+    
+      
