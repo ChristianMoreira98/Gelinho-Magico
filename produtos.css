@@ -100,17 +100,26 @@ background-color: #fc9d9a;
 
 
 .h1{
+    /*Chamando a caixa que guarda o título maior para a estilização*/
     display: flex;
+    /*Tornando os itens da caixa Flex (Deixando eles alinhados na vertical)*/
     justify-content: center;
+     /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
-
+    /*Alinhando itens ao centro*/
 margin-bottom: 30px;
+    /*Colocando um respiro na parte de baixo da caixa*/
+    
 }
 
 .h1 h1{
+    /*Chamando o texto do título maior para a estilização*/
     font-size: 60px;
+    /*Tamanho do texto*/
     color: #fe4365;
+    /*Cor do texto*/
     font-weight: 800;
+    /*Peso da fonte*/
 }
 
 
@@ -140,46 +149,65 @@ margin-bottom: 30px;
 }
 
 
+/*Chamando todas as nossas div's filhos para a estilização*/
 .sorvete1{
     background-image: url(imagens/milk-1382186_1280.jpg);
+      /*Imagem da caixa*/
     background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 
 .sorvete2{
     background-image: url(imagens2/summer-3206321_1280.jpg);
+      /*Imagem da caixa*/
     background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 
 
 .sorvete3{
     background-image: url(imagens2/drink-722061_1280.jpg);
+      /*Imagem da caixa*/
     background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 .sorvete4{
     background-image: url(imagens2/food-5227756_1280.jpg);
+         /*Imagem da caixa*/
     background-size: cover;
+       /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 .sorvete5{
     background-image: url(imagens2/smoothie-5119615_1280.jpg);
+      /*Imagem da caixa*/
     background-size: cover;
+       /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
 
 .sorvete6{
     background-image: url(imagens2/drink-4767705_1280.jpg);
+      /*Imagem da caixa*/
     background-size: cover;
+     /*Fazendo a imagem preencher todo o espaço da caixa*/
     background-position: center;
+     /*Posicionando imagem ao centro*/
 }
 
 
 .div-pai div:hover{
+      /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
     cursor: pointer;
+       /*Mudança no cursor*/
     box-shadow: 10px 10px 10px #fe4365;
+         /*Criamos uma sombra atrás da caixa*/
     transition: 0.9s;
+       /*Tempo de transição dos efeitos*/
     transform: scale(1.1,1.1);
+     /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
 }
 
 
@@ -187,8 +215,11 @@ margin-bottom: 30px;
 
 
 .sectionp2{
+/*Chamando a segunda sessão para a estilização*/
     padding: 180px;
+    /*Tamanho da sessão*/
     background-color: #f9cdad;
+    /*Cor de fundo da sessão*/
 }
 
 
@@ -224,15 +255,15 @@ margin-bottom: 30px;
     cursor: pointer;
      /*Mudança no cursor*/
     box-shadow: 10px 10px 10px #b97849;
-     /*Criamos uma sombra atrás do botão*/
+     /*Criamos uma sombra atrás da caixa*/
     transition: 0.9s;
-       /*Transição dos efeitos*/
+       /*Tempo de transição dos efeitos*/
     transform: scale(1.1,1.1);
     /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
 }
 
 
-/*Chamando todas as nossas divs filhos para estilização*/
+/*Chamando todas as nossas div's filhos para a estilização*/
 .sorvete7{
     background-image: url(imagens2/sorvete1.jpg);
      /*Imagem da caixa*/
@@ -280,17 +311,6 @@ margin-bottom: 30px;
     background-position: center;
       /*Posicionando imagem ao centro*/
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer{
