@@ -162,7 +162,7 @@ border-radius: 10px;
         transform: scale(1.1 , 1.1);
         /*transform utilizamos para transformar um elementos - scale foi utilizamos para dar um zoom na caixas ao passar o mouse*/
         box-shadow: 2px 2px 2px black;
-           /*Colocamos uma sombra atrás das caixas ao passar o mouse*/
+           /*Colocamos uma sombra atrás do botão ao passar o mouse*/
         
     }
 
