@@ -104,6 +104,8 @@ cursor: pointer;
      /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
      /*Alinhando itens ao centro*/
+    text-align: center
+    /*Alinhando texto ao centro*/
     margin-bottom: 60px;
     /*Colocando um respiro na parte de baixo do botão*/
   
