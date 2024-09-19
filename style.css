@@ -104,8 +104,6 @@ cursor: pointer;
      /*Justificando o conteúdo e alinhando da maneira que preferir*/
     align-items: center;
      /*Alinhando itens ao centro*/
-    text-align: center
-    /*Alinhando texto ao centro*/
     margin-bottom: 60px;
     /*Colocando um respiro na parte de baixo do botão*/
   
@@ -115,8 +113,10 @@ cursor: pointer;
     /*Estilização do título*/
     color: #fe4365;
     /*Cor do texto*/
-   font-size: 55px;
+   font-size: 56px;
    /*Tamanho do texto*/
+    text-align: center
+    /*Alinhando texto ao centro*/
 }
 
 
