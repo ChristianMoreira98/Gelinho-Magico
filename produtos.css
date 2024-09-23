@@ -192,10 +192,8 @@ margin-bottom: 30px;
     background-image: url(imagens2/drink-4767705_1280.jpg);
       /*Imagem da caixa*/
     background-size: cover;
-    
      /*Fazendo a imagem preencher todo o espaço da caixa*/
 }
-
 
 .div-pai div:hover{
       /*hover - utilizamos para que algo aconteça quando passamos o mouse por cima do elemento*/
