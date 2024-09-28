@@ -27,6 +27,12 @@ header{
     /*Tamanho do header*/
     background-color: #fe4365;
     /*Cor de fundo do header*/
+    position: sticky
+    ;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
     }
     
 
@@ -444,6 +450,6 @@ footer span{
     /*Cor do texto*/
 }
 
-  
+  @media (min-width )
 
 
